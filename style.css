@@ -110,7 +110,7 @@ div button:hover{
 }
 
 .content-div{
-	background-image: url("images/bg.jpg");
+	background-image: url("bg.jpg");
     background-repeat: no-repeat;
     background-size: 80vw;
     margin-top: 3vh;
