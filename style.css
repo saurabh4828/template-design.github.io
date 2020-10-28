@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+.main_div{
+	margin-top: 7vh;
+	margin-bottom: 7vh;
+	margin-right: 5vw;
+	margin-left: 5vw;
+	box-shadow: 0 5px 20px 0 rgba(138, 155, 165, 0.5) ;
+	/* height: 85vh; */
+	width: 90vw;
+}
+
+.top_header{
+	background-color: #C0C0C0;
+	display: flex;
+}
+
+.sub_header{
+	display: flex;
+}
+
+.red{
+	background-color: #f05454;
+	border-radius: 50%;
+	height: 25px;
+	width: 25px;
+}
+
+.yellow{
+	background-color: #f9813a;
+	border-radius: 50%;
+	height: 25px;
+	width: 25px;
+}
+
+.green{
+	background-color: #008000;
+	border-radius: 50%;
+	height: 25px;
+	width: 25px;
+}
+
+div input{
+	width: 40vw!important;
+	height: 25px!important;
+}
+
+.margin-right{
+	width: 34vw;
+	padding-left: 30vw;
+}
+
+.delicious{
+	font-family: 'Vampiro One', cursive;
+	font-size: 25px;
+}
+
+.food-blog{
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 16px;
+}
+
+.main-row{
+	display: flex;
+}
+
+.hello-world{
+	width: 45vw;
+	padding-left: 50px!important;
+}
+
+.social-icons{
+	width: 45vw;
+	padding-left: 28vw!important; 
+}
+
+div button{
+	border: none;
+	font-family: 'Merriweather', serif;
+	background-color: #fff;
+	padding: 2px;
+}
+
+div button:hover{
+	background-color: #b8de6f;
+	color: white;
+}
+
+.active{
+	background-color: #b8de6f;
+	color: white;
+}
+
+.active:hover{
+	background-color: #fff;;
+	color: #b8de6f;
+	borer : 20x solid #b8de6f;
+}
+
+.content-div{
+	background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 80vw;
+    margin-top: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+
+.inner-div{
+	color: white;
+	padding-left: 5vw;
+	padding-top: 6vh;
+	padding-bottom: 6vh;
+	padding-right: 2vw;
+	width: 42vw;
+}
+
+.sub-innerdiv{
+	padding-left: 5vw;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+	padding-right: 2vw;
+	background-color: black;
+	opacity: 0.5;
+	border-left: 5px solid #81b214;
+}
+
+
+@media (max-width: 600px) {
+  
+  .inner-div{
+		color: white;
+		padding-left: 5vw;
+		padding-top: 2vh;
+		padding-bottom: 3vh;
+		padding-right: 2vw;
+		width: 50vw;
+	}
+
+}
